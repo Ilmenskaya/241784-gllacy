@@ -1,0 +1,32 @@
+body {
+	font-size: 16px;
+	background: #849d8f;
+	line-height: 22px;
+	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+}
+header {
+    font-family: "roboto", "Arial", sans-serif;
+    font-weight: 700;
+    margin-bottom: 19px;
+}	
+<!--Стили для block-1-background!-->
+
+h3{
+    font-family: "roboto", "Arial", sans-serif;
+    font-size: 35px;
+	line-height: 41px;
+    font-weight: 700;
+    }
+.slide-title  {
+  font-family: "roboto", "Aria", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+   }
+ <!--Раздел о производстве!-->
+
+p
+ {
+	background-image: url(../img/ice_icon.png);
+    background-repeat: no-repeat;	
+}
