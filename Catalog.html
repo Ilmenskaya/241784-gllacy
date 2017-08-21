@@ -11,13 +11,13 @@
           <img src="img/logo.svg" width="111" height="24" alt="Логотип Глэйси">
         </a>
         <ul class="site-navigation">
-          <li><a class="btn-catalog"href="catalog.html">Каталог</a></li>
-          <li><a class="btn-catalog"href="delivery.html">Доставка и оплата</a></li>
-          <li><a class="btn-catalog"href="about.html">О Компании</a></li>
+          <li><a class="btn-catalog" href="catalog.html"><span class="underlined">Каталог</span></a>
+          <li><a class="btn-catalog" href="delivery.html"><span class="underlined">Доставка и оплата</span></a></li>
+          <li><a class="btn-catalog" href="about.html"><span class="underlined">О Компании</span></a></li>
         </ul>
         <ul class="user-navigation">
-          <li class="search">Поиск</li>
-          <li class="login-link">Вход</li>
+          <li class="search"><button class="find">Поиск</button>
+          <li class="login-link"><button class="login">Вход</button>
 	    	  <li class="cart-link">Пусто</li>
         </ul>
         <ul class="data-time">
@@ -170,12 +170,14 @@
             <a class="btn-catalog" href="#">Сливочное с мятным сиропом</a>
                       </li>
         </ul>
-        <nav class="page-pagination">
+        <nav class="page_pagination">
+		<a class="page_unactive"><div class="page-next"></div></a>
           <li><a href="#">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
           <li><a href="#">5</a></li>
+		 <a class="next" href="#next"><div class="page-next"></div></a>
         </nav>
       </section>
     </main>
@@ -201,3 +203,5 @@
     </p>
 </div>
 </footer>
+</body>
+</html>
