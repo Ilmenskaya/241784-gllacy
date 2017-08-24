@@ -1,14 +1,88 @@
 body {
-	font-size: 16px;
-	background: #849d8f;
-	line-height: 22px;
-	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #849d8f;
 }
 header {
     font-family: "roboto", "Arial", sans-serif;
     font-weight: 700;
     margin-bottom: 19px;
 }	
+a {
+    font-family: "roboto", "Arial", sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+a:hover {
+    color: #ffbc9e;
+
+.New_window 
+{
+    color: #323232;
+}
+.New_window :hover {
+    color: #e84d37;
+}
+
+.red-btn {
+    font-family: "roboto", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    display: inline-block;
+    color: #fff;
+}
+
+.banner-text
+{
+    font-size: 60px;
+    line-height: 61px;
+    font-weight: 700;
+  }
+
+.button
+{color: #ffffff;
+ font-size: 32px;
+ line-height: 44px;
+ font-weight: 700;
+}
+
+.about-us
+{
+    font-family: "roboto", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    min-height: 304px;
+    margin-bottom: 40px;
+    color: #323232; 
+}
+
+.blog-link
+{
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;   
+    color: #323232;
+}
+
+.about-us-technologies
+{
+position: relative;
+    display: block;
+    float: left;
+    width: 482px;
+    margin-right: 25px;
+    margin-bottom: 11px;
+    padding-top: 11px;
+    padding-left: 60px;
+    vertical-align: top;
+    background-position: 3px 0;
+}
 <!--Стили для block-1-background!-->
 
 h3{
@@ -23,6 +97,7 @@ h3{
     font-weight: 900;
     line-height: 60px;
    }
+
  <!--Раздел о производстве!-->
 
 p
